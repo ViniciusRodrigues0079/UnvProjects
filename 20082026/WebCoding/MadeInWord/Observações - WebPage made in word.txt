@@ -1,0 +1,1 @@
++ Ao criar um site no word e salvar como página da web (arquivo XML), o site ficará alinhado à esquerda. Para centralizá-lo, deve editar o código do arquivo no bloco de notas, localizando a tag <body> e adicionando a tag <center> na linha abaixo do body.
