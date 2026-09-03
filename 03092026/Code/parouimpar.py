@@ -6,4 +6,8 @@ if resultado == 1:
 else:
     print("Par")
 
+<<<<<<< HEAD
 """Feito em dupla com Rian"""
+=======
+"""Feito em dupla com Rian"""
+>>>>>>> 5486ae309168717b89da22a6abaafcd85ed8767c
