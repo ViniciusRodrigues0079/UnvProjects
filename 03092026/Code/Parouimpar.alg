@@ -7,6 +7,8 @@ resultado : real
 
 inicio
 
+'( Feito em dupla com Rian
+
 numero <- 0
 resultado <- 0
 escreval("digite um numero inteiro: ")

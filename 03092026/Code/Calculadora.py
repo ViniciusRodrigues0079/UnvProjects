@@ -15,3 +15,5 @@ numero7 = int(input("Digite um número inteiro: "))
 numero8 = int(input("Digite um número inteiro: "))
 resultado = numero7 / numero8
 print(f"resultado: {resultado}")
+
+"""Feito em dupla com Rian"""

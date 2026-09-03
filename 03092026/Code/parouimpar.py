@@ -6,4 +6,4 @@ if resultado == 1:
 else:
     print("Par")
 
-""""""
+"""Feito em dupla com Rian"""

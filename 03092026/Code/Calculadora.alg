@@ -7,6 +7,9 @@ resultado : real
 
 inicio
 
+
+'( Feito em dupla com Rian
+
 escreval("Digite um número inteiro: ")
 leia(numero)
 escreval("Digite outro número inteiro: ")
