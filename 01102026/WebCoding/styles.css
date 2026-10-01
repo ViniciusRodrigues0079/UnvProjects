@@ -1,0 +1,18 @@
+.box {
+    width: 250px; /* Largura dos elementos da classe box */
+    height: 250px; /* Altura dos elementos da classe box */
+    background-color: #77ff00; /* Cor de fundo dos elementos da classe box */
+    display: flex;
+    align-items: center; /* Alinha os elementos verticalmente */
+    justify-content: center; /* Alinha os elementos horizontalmente */
+    border-radius: 125px; /* Adiciona uma curva nas pontas da borda */
+}
+section {
+    display: flex;
+    flex-wrap: wrap; /* Permite que os elementos quebrem linha automaticamente se necessário */
+    align-items: center;
+    justify-content: center;
+    gap: 20px; /* Adiciona unma margem entre os elementos do section */
+    width:100%;
+    margin-top: 10px;
+}
