@@ -1,0 +1,269 @@
+<!-- Código do professor -->
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Doce Encanto | Doceria Artesanal</title>
+
+    <!-- Tailwind CSS v4: demonstração e aprendizagem -->
+    <script src="https://cdn.jsdelivr.net/npm/@tailwindcss/browser@4"></script>
+
+    <!-- CSS personalizado -->
+    <style type="text/tailwindcss">
+        @theme {
+            --color-doce: #d95783;
+            --color-doce-claro: #fff0f5;
+            --color-chocolate: #56352f;
+        }
+    </style>
+</head>
+
+<body class="bg-[#fffaf7] font-sans text-chocolate">
+
+    <!-- CABEÇALHO -->
+    <nav class="bg-white shadow-sm">
+        <div class="mx-auto flex max-w-7xl flex-wrap items-center
+                    justify-between gap-4 px-6 py-4">
+
+            <a href="#inicio"
+               class="text-2xl font-bold text-doce">
+                🍰 Doce Encanto
+            </a>
+
+            <div class="flex flex-wrap items-center gap-x-5 gap-y-2">
+                <a href="#inicio"
+                   class="text-sm hover:text-doce">
+                    Início
+                </a>
+
+                <a href="#produtos"
+                   class="text-sm hover:text-doce">
+                    Produtos
+                </a>
+
+                <a href="#sobre"
+                   class="text-sm hover:text-doce">
+                    Sobre nós
+                </a>
+
+                <a href="#pedidos"
+                   class="text-sm hover:text-doce">
+                    Pedidos
+                </a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- BANNER PRINCIPAL -->
+    <header id="inicio" class="bg-doce-claro">
+        <div class="mx-auto grid max-w-7xl items-center gap-10
+                    px-6 py-16 md:grid-cols-2 md:py-20">
+
+            <div>
+                <p class="mb-3 font-bold uppercase tracking-widest
+                          text-doce">
+                    Feito com carinho
+                </p>
+
+                <h1 class="text-4xl font-extrabold leading-tight
+                           text-chocolate sm:text-5xl">
+                    Pequenos doces,
+                    <span class="text-doce">
+                        grandes momentos!
+                    </span>
+                </h1>
+
+                <p class="mt-5 text-lg leading-relaxed text-gray-700">
+                    Bolos, brigadeiros e sobremesas artesanais
+                    para transformar qualquer dia em uma ocasião especial.
+                </p>
+
+                <a href="#produtos"
+                   class="mt-7 inline-block rounded-full bg-doce
+                          px-6 py-3 font-semibold text-white
+                          transition hover:bg-[#b83e69]">
+                    Conheça nossos doces
+                </a>
+            </div>
+
+            <div>
+                <img
+                    src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=1000&q=80"
+                    alt="Bolo decorado de chocolate"
+                    class="h-80 w-full rounded-2xl object-cover
+                           shadow-lg md:h-96">
+            </div>
+
+        </div>
+    </header>
+
+    <!-- PRODUTOS -->
+    <main>
+        <section id="produtos"
+                 class="mx-auto max-w-7xl px-6 py-16">
+
+            <div class="mb-10 text-center">
+                <h2 class="text-3xl font-bold text-chocolate">
+                    Nossas delícias
+                </h2>
+
+                <p class="mt-3 text-gray-600">
+                    Preparadas artesanalmente para adoçar seu dia.
+                </p>
+            </div>
+
+            <div class="grid grid-cols-1 gap-7 sm:grid-cols-2
+                        lg:grid-cols-3">
+
+                <!-- PRODUTO 1 -->
+                <article class="overflow-hidden rounded-2xl
+                                bg-white shadow-md transition
+                                hover:-translate-y-1 hover:shadow-xl">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1578985545062-69928b1d9587?auto=format&fit=crop&w=800&q=80"
+                        alt="Bolo de chocolate"
+                        class="h-56 w-full object-cover">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">
+                            Bolo de Chocolate
+                        </h3>
+
+                        <p class="mt-3 leading-relaxed text-gray-600">
+                            Massa fofinha, recheio cremoso
+                            e cobertura de chocolate.
+                        </p>
+
+                        <p class="mt-4 text-xl font-bold text-doce">
+                            R$ 65,00
+                        </p>
+
+                        <a href="#pedidos"
+                           class="mt-4 inline-block rounded-full
+                                  bg-doce px-5 py-2.5 font-semibold
+                                  text-white hover:bg-[#b83e69]">
+                            Fazer pedido
+                        </a>
+                    </div>
+                </article>
+
+                <!-- PRODUTO 2 -->
+                <article class="overflow-hidden rounded-2xl
+                                bg-white shadow-md transition
+                                hover:-translate-y-1 hover:shadow-xl">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1488477181946-6428a0291777?auto=format&fit=crop&w=800&q=80"
+                        alt="Sobremesa artesanal"
+                        class="h-56 w-full object-cover">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">
+                            Taça de Morango
+                        </h3>
+
+                        <p class="mt-3 leading-relaxed text-gray-600">
+                            Uma combinação delicada de creme,
+                            morangos e chocolate.
+                        </p>
+
+                        <p class="mt-4 text-xl font-bold text-doce">
+                            R$ 18,00
+                        </p>
+
+                        <a href="#pedidos"
+                           class="mt-4 inline-block rounded-full
+                                  bg-doce px-5 py-2.5 font-semibold
+                                  text-white hover:bg-[#b83e69]">
+                            Fazer pedido
+                        </a>
+                    </div>
+                </article>
+
+                <!-- PRODUTO 3 -->
+                <article class="overflow-hidden rounded-2xl
+                                bg-white shadow-md transition
+                                hover:-translate-y-1 hover:shadow-xl">
+
+                    <img
+                        src="https://images.unsplash.com/photo-1550617931-e17a7b70dce2?auto=format&fit=crop&w=800&q=80"
+                        alt="Cupcakes decorados"
+                        class="h-56 w-full object-cover">
+
+                    <div class="p-6">
+                        <h3 class="text-xl font-bold">
+                            Cupcakes Especiais
+                        </h3>
+
+                        <p class="mt-3 leading-relaxed text-gray-600">
+                            Pequenas delícias com cobertura
+                            cremosa e decoração especial.
+                        </p>
+
+                        <p class="mt-4 text-xl font-bold text-doce">
+                            R$ 8,00 cada
+                        </p>
+
+                        <a href="#pedidos"
+                           class="mt-4 inline-block rounded-full
+                                  bg-doce px-5 py-2.5 font-semibold
+                                  text-white hover:bg-[#b83e69]">
+                            Fazer pedido
+                        </a>
+                    </div>
+                </article>
+
+            </div>
+        </section>
+
+        <!-- SOBRE -->
+        <section id="sobre" class="bg-doce-claro px-6 py-16">
+            <div class="mx-auto max-w-4xl text-center">
+                <h2 class="text-3xl font-bold text-chocolate">
+                    Mais que doces, criamos memórias.
+                </h2>
+
+                <p class="mx-auto mt-5 max-w-3xl leading-relaxed
+                          text-gray-700">
+                    Na Doce Encanto, cada receita é preparada com
+                    dedicação, ingredientes selecionados e muito carinho.
+                    Nosso objetivo é tornar seus momentos ainda mais doces.
+                </p>
+            </div>
+        </section>
+
+        <!-- PEDIDOS -->
+        <section id="pedidos" class="px-6 py-16 text-center">
+            <h2 class="text-3xl font-bold">
+                Vamos adoçar seu dia?
+            </h2>
+
+            <p class="mt-4 text-gray-600">
+                Entre em contato e consulte nossas opções de encomenda.
+            </p>
+
+            <a href="mailto:pedidos@doceencanto.com"
+               class="mt-6 inline-block rounded-full bg-doce
+                      px-6 py-3 font-semibold text-white
+                      hover:bg-[#b83e69]">
+                Solicitar um orçamento
+            </a>
+        </section>
+    </main>
+
+    <!-- RODAPÉ -->
+    <footer class="bg-chocolate px-6 py-7 text-center text-white">
+        <p>
+            &copy; 2026 Doce Encanto — Todos os direitos reservados.
+        </p>
+
+        <p class="mt-2 text-sm text-white/80">
+            Feito com carinho e uma pitada de açúcar.
+        </p>
+    </footer>
+
+</body>
+</html>
