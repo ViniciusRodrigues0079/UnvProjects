@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Exercício de JavaScript</title>
+</head>
+<body style="height:100vh; display:flex; justify-content: center; align-items: center; flex-direction: column; gap: 10px; background: linear-gradient(225deg, #0f2027, #2222bb, #3140cc, #492add);">
+    <h1 id="mensagem">Bem vindo ao exercício de JavaScript!</h1>
+    <button id="botao1" onclick="MostrarTexto()">Clique aqui para mostrar o texto</button>
+    <button id="botao2" onclick="mudaCorBotao()">Clique aqui para mudar a cor</button>
+    <button id="botao3" onclick="desafio()" style="background-color: #000000; color: #ffffff;">Botão do desafio</button>
+    <script>
+        function MostrarTexto() {
+            document.getElementById("botao1").innerText = "Você clicou no botão";
+            document.body.style.fontFamily = "Time New Roman";
+        }
+        function mudaCorBotao() {
+            const botao = document.getElementById("botao2")
+            botao.style.backgroundColor = "#0000ff";
+            botao.style.color = "#ffffff"
+            document.body.style.backgroundColor = "#878787"
+            document.getElementById("mensagem").innerText = "Mudança para a cor Cinza"
+            document.body.style.fontFamily = "Arial"
+        }
+        function desafio() {
+            const botao2 = document.getElementById("botao3")
+            document.body.style.backgroundColor="#ff7700"
+            document.getElementById("botao3").innerText="Uau! Você conseguiu!"
+            botao2.style.fontFamily="Sans Serif"
+        }
+    </script>
+
+
+</body>
+</html>
+
+<!--
+Anotações
+    - A medida 100vh (viewport height) no height é uma medida de alinhamento que se baseia no viewport,
+    ou seja, a tela ficará alinhada de acordo com a tela do dispositivo utilizado (para width se usa vw (viewport width))
+    - 
+
+-->
